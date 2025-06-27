@@ -67,7 +67,7 @@ const LoginPage = () => {
           footer={
             <p>
               Don't have an account?{' '}
-              <Link to="/sign-up" className="font-semibold text-blue-600 hover:underline">
+              <Link to="/sign-up" className="font-semibold text-primary hover:underline">
                 Sign Up
               </Link>
             </p>
@@ -97,7 +97,7 @@ const LoginPage = () => {
                       <FormLabel>Password</FormLabel>
                       <Link
                         to="/forgot-password"
-                        className="text-sm font-medium text-blue-600 hover:underline"
+                        className="text-sm font-medium text-primary hover:underline"
                       >
                         Forgot Password?
                       </Link>
@@ -117,7 +117,7 @@ const LoginPage = () => {
           
           <div className="relative my-6">
             <Separator />
-            <span className="absolute left-1/2 -translate-x-1/2 -top-3 bg-white px-2 text-sm text-gray-500">
+            <span className="absolute left-1/2 -translate-x-1/2 -top-3 bg-card px-2 text-sm text-muted-foreground">
               OR CONTINUE WITH
             </span>
           </div>
