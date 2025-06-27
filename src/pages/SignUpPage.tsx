@@ -62,7 +62,7 @@ const SignUpPage = () => {
   };
 
   return (
-    <div className="relative flex flex-col min-h-screen bg-gray-50">
+    <div className="relative flex flex-col min-h-screen">
       <AuthHeader />
       <main className="flex-grow">
         <AuthFormWrapper
@@ -71,7 +71,7 @@ const SignUpPage = () => {
           footer={
             <p className="text-center text-sm">
               Already have an account?{' '}
-              <Link to="/" className="font-medium text-blue-600 hover:underline">
+              <Link to="/" className="font-medium text-primary hover:underline">
                 Log In
               </Link>
             </p>
