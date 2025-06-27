@@ -59,7 +59,7 @@ const ForgotPasswordPage = () => {
           footer={
             <p>
               Remember your password?{' '}
-              <Link to="/" className="font-semibold text-blue-600 hover:underline">
+              <Link to="/" className="font-semibold text-primary hover:underline">
                 Sign In
               </Link>
             </p>
